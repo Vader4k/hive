@@ -8,7 +8,7 @@ import Card from "@/components/Card";
 
 const page = () => {
   return (
-    <div className="bg-[#121212] max-w-md mx-auto w-full text-white pb-5">
+    <div className="bg-[#121212] max-w-md mx-auto w-full text-white pb-8 h-screen overflow-clip">
       <Navbar />
       <Prev />
       <Breadcrumbs />
