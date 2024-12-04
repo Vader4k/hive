@@ -17,8 +17,8 @@ const Card = ({ stories, img, views }: props) => {
         height={100}
         className="w-full h-full object-cover z-0"
       />
-      <div className="absolute right-2 z-[5] text-white bg-black/50 rounded-full text-center top-2 size-5 text-[0.7rem] flex items-center justify-center">
-        {stories}
+      <div className="absolute right-2 z-[5] text-white size-6 bg-black/50 rounded-full top-2 text-xs flex items-center justify-center">
+        <p>{stories}</p>
       </div>
       <div className="z-[5] absolute flex items-center gap-2 bottom-2 left-1/2 -translate-x-1/2 bg-white text-black/60 px-2 py-0.5 rounded-full text-sm">
         <IoPlay />
